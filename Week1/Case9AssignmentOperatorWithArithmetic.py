@@ -1,6 +1,7 @@
 # Assignment Operator
 a = 10
 # Addition Assignment
+a= a + 5
 a += 5
 print ("a += 5 : ", a)
 # Subtraction Assignment

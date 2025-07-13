@@ -3,7 +3,7 @@ a = 5
 b = 2
 
 # equal to operator
-print('a == b =', a == b)
+print(' a == b =', a == b)
 
 # not equal to operator
 print('a != b =', a != b)
