@@ -26,7 +26,7 @@ lemm = WordNetLemmatizer()
 
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv("Week8/Clothing-Review.csv")
+data = pd.read_csv("Week14/Clothing-Review.csv")
 data.head(7)
 print(data.shape)
 

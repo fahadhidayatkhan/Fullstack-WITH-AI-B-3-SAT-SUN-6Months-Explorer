@@ -12,7 +12,7 @@ from keras.metrics import Precision, Recall
 The dataset we’re using is a time-series dataset containing daily temperature data i.e forecasting dataset. It spans 8,000 days starting from January 1, 2010.
 
 """
-df = pd.read_csv('Week8/data.csv', parse_dates=['Date'], index_col='Date')
+df = pd.read_csv('Week14/data.csv', parse_dates=['Date'], index_col='Date')
 print(df.head())
 
 """

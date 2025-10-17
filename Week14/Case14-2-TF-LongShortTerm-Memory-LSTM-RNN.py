@@ -20,7 +20,7 @@ We load the dataset of monthly milk production. The "Date" column is converted t
 We scale the data to a range of [0, 1] using MinMaxScaler to help the model train more effectively.
 """
 
-data = pd.read_csv('Week8/monthly_milk_production.csv')
+data = pd.read_csv('Week14/monthly_milk_production.csv')
 data['Date'] = pd.to_datetime(data['Date'])
 data.set_index('Date', inplace=True)
 production = data['Production'].astype(float).values.reshape(-1, 1)
